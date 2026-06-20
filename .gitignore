@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+Frontend-b4/node_modules/
+harrypotterbackend/node_modules/
+
+# Production builds
+Frontend-b4/dist/
+Frontend-b4/build/
+
+# Environment variables & secrets
+.env
+harrypotterbackend/.env
+
+# Local development files & logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# OS files
+.DS_Store
+Thumbs.db
